@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ 
+
+.login {
+	background-color: darkorange;
+	margin: auto;
+	margin-top: 50px;
+	width: 500px;
+	height: 550px;
+	border-radius: 40px;
+} 
+
+.fom{
+	display: grid;
+	place-items: center;
+	padding: 20px;
+}
+
+.icon i{
+	color: white;
+}
+
+.icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	margin: 15px ;
+}
+
+#user,#pass,#locat {
+	font-size: 30px;
+	border: 2px solid red;
+	border-radius: 10px;
+	
+	
+}
+
+
+.head{
+	font-size: 60px;
+	color: white;
+	text-align: center;
+}
+
+
+#sub{
+	font-size: 45px;
+	border: 2px solid darkorange;
+	border-radius: 40px;
+	background-color: white;
+	color: darkorange;
+	width: 14rem;
+}	
